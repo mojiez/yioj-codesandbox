@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: yioj-code-sandbox
+server:
+  port: 8091
