@@ -1,4 +1,4 @@
-package com.atyichen.project.yiojcodesandbox.errorCode;
+package com.atyichen.project.yiojcodesandbox.dangercode;
 
 public class LongSleep {
     public static void main(String[] args) throws InterruptedException {

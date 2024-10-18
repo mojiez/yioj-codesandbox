@@ -1,7 +1,8 @@
-package com.yichen.yioj.judge.codesandbox;
+package com.atyichen.project.yiojcodesandbox;
 
-import com.yichen.yioj.judge.codesandbox.model.ExecuteCodeRequest;
-import com.yichen.yioj.judge.codesandbox.model.ExecuteCodeResponse;
+
+import com.atyichen.project.yiojcodesandbox.model.ExecuteCodeRequest;
+import com.atyichen.project.yiojcodesandbox.model.ExecuteCodeResponse;
 
 public interface CodeSandBox {
     ExecuteCodeResponse executeCode(ExecuteCodeRequest executeCodeRequest);

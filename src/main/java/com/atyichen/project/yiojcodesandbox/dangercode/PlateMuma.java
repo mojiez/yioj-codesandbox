@@ -1,4 +1,4 @@
-package com.atyichen.project.yiojcodesandbox.errorCode;
+package com.atyichen.project.yiojcodesandbox.dangercode;
 
 import java.io.File;
 import java.io.IOException;

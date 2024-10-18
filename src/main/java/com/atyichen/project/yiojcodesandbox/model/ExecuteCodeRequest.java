@@ -1,4 +1,4 @@
-package com.yichen.yioj.judge.codesandbox.model;
+package com.atyichen.project.yiojcodesandbox.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
