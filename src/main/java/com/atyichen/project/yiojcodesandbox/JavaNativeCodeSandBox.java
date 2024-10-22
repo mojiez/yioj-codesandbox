@@ -18,8 +18,9 @@ import com.atyichen.project.yiojcodesandbox.model.ExecuteCodeRequest;
 import com.atyichen.project.yiojcodesandbox.model.ExecuteCodeResponse;
 import com.atyichen.project.yiojcodesandbox.model.ExecuteMessage;
 import com.atyichen.project.yiojcodesandbox.utils.ProcessUtils;
+import org.springframework.stereotype.Component;
 import org.springframework.util.StopWatch;
-
+@Component
 public class JavaNativeCodeSandBox implements CodeSandBox {
     private static final String GLOBAL_CODE_DIR_NAME = "tempCode";
     private static final String GLOBAL_JAVA_CLASS_NAME = "Main.java";
@@ -200,8 +201,8 @@ public class JavaNativeCodeSandBox implements CodeSandBox {
         // todo 设置judgeInfo
         JudgeInfo judgeInfo = new JudgeInfo();
         // 这里的Message表示 针对这道题目的具体情况 ac wa TLE 等等 这个等到外层再去定义 这里只需要set memory和time
-        judgeInfo.setMessage("");
-        judgeInfo.setMemory(0L);
+        judgeInfo.setMessage("aaaaa");
+        judgeInfo.setMemory(711L);
         judgeInfo.setTime(maxTime);
         executeCodeResponse.setJudgeInfo(judgeInfo);
         System.out.println(executeCodeResponse);
